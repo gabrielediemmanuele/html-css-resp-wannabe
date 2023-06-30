@@ -126,14 +126,16 @@ img {
 
 /************************************************
     SOLUZIONE RESPONSIVE
- ************************************************/
+ *************************************************/
 
+/*tablet*/
 @media screen and (max-width: 768px) {
   .container {
     width: 100%;
   }
 }
 
+/*smartphone*/
 @media screen and (max-width: 480px) {
   .row {
     flex-direction: column;
